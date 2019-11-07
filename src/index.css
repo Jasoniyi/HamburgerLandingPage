@@ -109,6 +109,24 @@ nav .navbar-nav li a {
   font-weight: 500;
 }
 
+/* ABOUT COMPONENT STARTS */
+.about-text h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.about-text p {
+  margin-top: 1em;
+  color: #000000;
+  font-size: 1.1em;
+}
+
+.burger-img {
+  margin-top: -4em;
+}
+
+/* RESPONSIVENESS */
 @media all and (max-width: 768px) {
   .social {
     display: flex;
@@ -150,5 +168,14 @@ nav .navbar-nav li a {
 
   .order-now h3 {
     font-size: 1.2em;
+  }
+
+  .about-text h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+
+  .about-text p {
+    font-size: 1em;
   }
 }
