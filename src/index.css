@@ -765,6 +765,64 @@ nav .navbar-nav li a {
   font-size: 1em;
 }
 
+.footer-wrapper {
+  background: url(./resources/images/g4.jpg) no-repeat center -14em;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 28em;
+  margin-top: 10em;
+}
+
+.footer-wrapper .review-layer {
+  min-height: 28em;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9em;
+}
+
+.footer-opening-hours,
+.footer-contact {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.footer-opening-hours .divider,
+.footer-contact .divider {
+  opacity: 0.3;
+  width: 80%;
+}
+.footer-opening-hours ul {
+  list-style: none;
+  margin-top: 1em;
+}
+
+.footer-opening-hours ul li {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.footer-opening-hours span .divider {
+  margin-top: 1em;
+  opacity: 0.3;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
+  font-weight: 300;
+}
 /* RESPONSIVENESS */
 @media all and (max-width: 990px) {
   .social {
@@ -785,6 +843,12 @@ nav .navbar-nav li a {
 
   .contact-info h5 {
     margin-left: 1.5em;
+  }
+
+  .footer-opening-hours,
+  .footer-contact,
+  .footer-copyright {
+    margin-top: 3em;
   }
 }
 
