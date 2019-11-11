@@ -6,8 +6,7 @@ import {
   MDBNav,
   MDBNavItem,
   MDBNavLink,
-  MDBCol,
-  MDBRow
+  MDBIcon
 } from "mdbreact";
 
 import { BrowserRouter as Router } from "react-router-dom";
@@ -98,9 +97,30 @@ class Menu extends Component {
             </div>
             <div className="price-info ml-2">
               <ul>
-                <li>Integer sit amet mattis quam</li>
-                <li>Praesent ullamcorper dui turpis</li>
-                <li>Integer sit amet mattis quam</li>
+                <li>
+                  <MDBIcon
+                    icon="long-arrow-alt-right"
+                    size="lg"
+                    className="mr-3 arrow-icon"
+                  />
+                  Integer sit amet mattis quam
+                </li>
+                <li>
+                  <MDBIcon
+                    icon="long-arrow-alt-right"
+                    size="lg"
+                    className="mr-3 arrow-icon"
+                  />
+                  Praesent ullamcorper dui turpis
+                </li>
+                <li>
+                  <MDBIcon
+                    icon="long-arrow-alt-right"
+                    size="lg"
+                    className="mr-3 arrow-icon"
+                  />
+                  Integer sit amet mattis quam
+                </li>
               </ul>
             </div>
           </div>
