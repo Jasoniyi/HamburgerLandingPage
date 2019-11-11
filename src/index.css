@@ -693,6 +693,51 @@ nav .navbar-nav li a {
   transform: translateX(-50%) translateY(-50%);
 }
 
+/* REVIEW COMPONENT */
+.reviews-wrapper {
+  margin-top: 4em;
+  background: url(./resources/images/banner3.jpg) no-repeat center -40px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 10em;
+}
+
+.review-layer {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.review-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-text {
+  margin-top: 4em;
+  color: #ffffff;
+}
+
+.review-rating {
+  display: flex;
+  color: #ffc80a;
+}
+
+.review-comment p {
+  color: #ffffff;
+  padding: 1em 15em;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 3em;
+}
+
 /* RESPONSIVENESS */
 @media all and (max-width: 990px) {
   .social {
@@ -712,6 +757,10 @@ nav .navbar-nav li a {
   .header-title {
     margin-left: -3em;
   }
+
+  .review-comment p {
+    padding: 1em 4em;
+  }
 }
 
 @media all and (max-width: 414px) {
@@ -726,6 +775,10 @@ nav .navbar-nav li a {
 
   .social {
     padding-right: 3em;
+  }
+
+  .review-comment p {
+    padding: 1em 4em;
   }
 }
 

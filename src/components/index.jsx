@@ -5,6 +5,7 @@ import About from "./About";
 import Service from "./Service";
 import Menu from "./Menu";
 import Gallery from "./Gallery";
+import Review from "./Reviews";
 
 const index = () => {
   return (
@@ -14,6 +15,7 @@ const index = () => {
       <Service />
       <Menu />
       <Gallery />
+      <Review />
     </div>
   );
 };
