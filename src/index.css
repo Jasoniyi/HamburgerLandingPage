@@ -162,6 +162,113 @@ nav .navbar-nav li a {
   text-align: center;
   color: #ffffff;
 }
+
+/* SERVICE COMPONENT ENDS HERE */
+
+/* MENU COMPONENT STARTS */
+.menu-wrapper h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2.2em;
+  font-weight: 300;
+}
+
+.menu-tabname {
+  margin-left: 20%;
+}
+
+.menu-tabnav {
+  background-color: #eff0f1 !important;
+  color: #bcbcc0;
+  width: 13em;
+  height: 3.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.burger-wrapper {
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #000000;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.ab-content img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+  transition: all 500ms ease;
+  width: 68%;
+}
+
+.burger-img img {
+  width: 40%;
+  margin-top: 6em;
+}
+
+.burger-img {
+  display: flex;
+  justify-content: center;
+}
+
+.burger-text h3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.burger-price h3 {
+  font-size: 1em;
+  margin-top: 1.5em;
+  color: #c20d00;
+  font-weight: 600;
+}
+
+.delivery-wrapper {
+  background-color: #ffc80a;
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivery-wrapper h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 400;
+  padding-top: 3em;
+}
+
+.delivery-wrapper span {
+  font-size: 2em;
+  color: #c20d00;
+}
+
+.day-price {
+  display: flex;
+  flex-direction: row;
+}
+
+.day-price h2 {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.delivery-wrapper button {
+  background-color: #c20d00;
+  color: #ffffff;
+  margin-bottom: 3em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
 /* RESPONSIVENESS */
 @media all and (max-width: 990px) {
   .social {
