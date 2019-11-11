@@ -6,6 +6,7 @@ import Service from "./Service";
 import Menu from "./Menu";
 import Gallery from "./Gallery";
 import Review from "./Reviews";
+import Contact from "./Contact";
 
 const index = () => {
   return (
@@ -16,6 +17,7 @@ const index = () => {
       <Menu />
       <Gallery />
       <Review />
+      <Contact />
     </div>
   );
 };
